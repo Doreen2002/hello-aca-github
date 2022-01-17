@@ -1,0 +1,30 @@
+*
+{
+    padding:0px;
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.toggleButton
+{
+    background-color: rgb(128, 245, 245);
+    color: rgb(104, 97, 97);
+    border: solid 1px silver;
+    width: 100px;
+   
+    height: 20px;
+    border-radius: 5px;
+}
+.toggleButton:hover
+{
+   background-color: rgb(250, 250, 244);
+}
+.toggleButton:active
+{
+    border: red 1px solid;
+}
+#toggledText
+{
+      display: none;
+    color: rgb(59, 39, 14);
+}
